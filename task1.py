@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pylab as plt
 from matplotlib import pyplot
 from datetime import datetime
-url = 'file:///Users/vasudhagarg/Downloads/fifa21%20raw%20data%20v2.csv'
+url = 'https://raw.githubusercontent.com/vasudha830/RYZEN_TECH/main/fifa21%20raw%20data%20v2.csv'
 data = pd.read_csv(url, low_memory=False)
 # print(data.head())
 
