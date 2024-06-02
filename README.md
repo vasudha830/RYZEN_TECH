@@ -21,12 +21,13 @@ Which players are highly valuable but still underpaid (on low wages)? (hint: sca
 
 
 
-TASK 2
-FRAUD DETECTION
-▪ Identifying unusual patterns or deviations from normal behavior within data.
-▪ Employing algorithms like Logistic Regression, Decision Trees, or Neural Networks for
-predictive analysis.
-▪ Selecting and transforming relevant features to enhance fraud detection accuracy.
-▪ Implementing systems that can detect and respond to fraudulent activities in real-time.
-▪ Designing fraud detection systems capable of handling large volumes of transactions
-efficiently.
+TASK 3
+HOUSE PRICE PREDICTION
+▪ Obtain a dataset with numerical features and a target variable for prediction.
+▪ Explore the dataset to understand its structure, handle missing values, and ensure data
+quality.
+▪ Identify relevant features that may contribute to the predictive model.
+▪ Implement linear regression using a machine learning library (e.g., Scikit- Learn).
+▪ Evaluate the model's performance on a separate test dataset using metrics such as Mean
+Squared Error or R-squared.
+▪ Create visualizations to illustrate the relationship between the predicted and actual values.
