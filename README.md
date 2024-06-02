@@ -18,3 +18,15 @@ Based on the 'Joined' column, check which players have been playing at a club fo
 'Value', 'Wage' and "Release Clause' are string columns. Convert them to numbers. For eg, "M" in value column is Million, so multiply the row values by 1,000,000, etc.
 Some columns have 'star' characters. Strip those columns of these stars and make the columns numerical
 Which players are highly valuable but still underpaid (on low wages)? (hint: scatter plot between wage and value)
+
+
+
+TASK 2
+FRAUD DETECTION
+▪ Identifying unusual patterns or deviations from normal behavior within data.
+▪ Employing algorithms like Logistic Regression, Decision Trees, or Neural Networks for
+predictive analysis.
+▪ Selecting and transforming relevant features to enhance fraud detection accuracy.
+▪ Implementing systems that can detect and respond to fraudulent activities in real-time.
+▪ Designing fraud detection systems capable of handling large volumes of transactions
+efficiently.
