@@ -168,9 +168,9 @@ np.random.seed(7)
 x = np.random.rand(100, 1)
 y = 13 + 3 * x + np.random.rand(100, 1)
 plt.scatter(x,y,s=10)
-# plt.xlabel('x')
-# plt.ylabel('y')
-# print(plt.show())
+plt.xlabel('x')
+plt.ylabel('y')
+print(plt.show())
 
 
 # #ML Modeling
@@ -190,8 +190,10 @@ m1=float(linear.coef_)
 # print("Intercept (c) of regression line is", c1)
 # print("Coefficient (m) of regression line is", m1)
 
-plt.scatter(X_test,Y_test)
-print(plt.plot(x,m1*x+c1,color='red'))
-print(plt.show())
-
+plt.scatter(X_test, Y_test, label='Test Data')
+plt.plot(X_test, m1 * X_test + c1, color='red', label='Regression Line')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.legend()
+plt.show()
 # So this model Predicts the value of any house with an accuracy of 88.42%
